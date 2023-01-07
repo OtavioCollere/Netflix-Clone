@@ -1,0 +1,169 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Gujarati&family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/BR-pt-20221228-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.cor{
+    background-color: rgba(0, 0, 0, 0.733);
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content > h2{
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    font-size: 50px;
+    font-weight: 800;
+    color: #de0913;
+    letter-spacing: 0.4rem;
+}
+
+.main-content{
+    text-align: center;
+}
+
+.main-content > h3{
+    font-size: 55px;
+    font-weight: 1000;
+    color: #fff;
+}
+
+.main-content > p{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+    color: #fff;
+}
+
+.form-group{
+    width: 760px;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-group > input{
+    width: 85%;
+    padding: 10px;
+    height: 65px;
+    border: none;
+    outline: none;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.search-box{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #de0913;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.search-box > i{
+    margin-left: 0.4rem;
+}
+
+/* ======== MOVIES ======= */
+
+.movies-area{
+    width: 100%;
+    height: auto;
+    background-color: #202020;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-area{
+    width: 100%;
+    height: calc(auto + 3rem);
+    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}   
+
+.card{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 280px;
+    height: 470px;
+    padding: 5px;
+    margin-right: 1.5rem;
+    /* background-color: #111111; */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card-img{
+    width: 95%;
+    height: 380px;
+    border-radius: 8px;
+    box-shadow: 1px 0px 12px 0px grey;
+}
+
+.card-img > img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-text{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.year{ 
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+    width: 85px;height: 30px;
+    background-color: #de0913;
+    color: white;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text > h3{
+    color: white;
+    font-size: 19px;
+}

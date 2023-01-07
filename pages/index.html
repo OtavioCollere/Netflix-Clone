@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS | Netflix Clone</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="index.css">
+
+    <script src="../scripts/script.js"></script>
+</head>
+<body>
+    <main>
+        <div class="cor">
+            <div class="main-content">
+                <h2>Netflix</h2>
+                <h3>Filmes, séries e muito mais.<br>Sem limites.</h3>
+                <p>Insira o nome do filme e confira o catálogo</p>
+                <div class="form-group">
+                    <input type="text" id="search" placeholder="Digite o nome do Filme que deseja buscar...">
+                    <div class="search-box" onclick="buscaFilmes()">
+                        Buscar<i class="bi bi-search"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="movies-area">
+        </div>
+    </main>
+</body>
+</html>
