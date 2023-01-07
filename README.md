@@ -2,7 +2,7 @@
 
 Projeto Front-End para exercitar os conhecimentos! Usando Jquery para fazer a requisição ajax -> a uma API de filmes ( http://www.omdbapi.com/ )
 
-LINK: https://otaviocollere.github.io/Netflix-Clone/
+LINK: https://otaviocollere.github.io/Netflix-Clone/ (REQUISICOES NAO FUNCIONAM NO GITHUB PAGES)
 
 
 ![image](https://user-images.githubusercontent.com/108621654/211125562-ed2e39ec-b3f7-4b10-aac0-7276c848fe87.png)
